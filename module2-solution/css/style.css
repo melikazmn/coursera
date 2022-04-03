@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@1,700&family=Oleo+Script:wght@700&family=Syncopate:wght@700&display=swap");
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;    
+}
+body{
+    height: 100%;
+    background: rgb(29,14,5);
+    background: repeating-linear-gradient(0deg, rgba(29,14,5,1) 0%, rgba(139,78,27,1) 100%);
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: "Oleo Script", cursive;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1vw 0.1vw 0.9vw #000000;
+}
+
+div.container{
+    position: relative;
+    font-family: cursive;
+    float: left;
+    width: 30% ;
+    margin-left: 2.5%;
+    padding: 40px 20px 20px 20px;
+    border-radius:20px;
+    box-shadow: 0.4vw  0.4vw 1vw #200f0f88;
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
+div.container:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.6vw  0.6vw 1vw #0f0a0aa4;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+div.innerdiv{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 20px 5px 20px;
+    font-family: "Oleo Script", cursive;
+    border-bottom: 0.1vw  solid rgb(29,14,5);
+    border-left: 0.1vw  solid rgb(29,14,5);
+    border-radius: 40vw;
+    color: rgb(143, 0, 0);
+    font-weight: 900;
+    font-size: 22px;
+    
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    div.one ,div.two{
+        width: 44% ;
+        margin-left: 4%;
+    }
+    div.three {
+        position: relative;
+        font-family: cursive;
+        float: left;
+        width: 92% ;
+        margin-left: 4%;
+        margin-top: 3%;    
+     
+    }
+
+}
+
+@media  (max-width:767px) {
+    div.one ,div.two ,div.three{
+        width: 90% ;
+        margin-left: 5%;
+        margin-top: 3%; 
+        
+    }
+
+}
