@@ -54,7 +54,7 @@ div.innerdiv{
     
 }
 
-@media (max-width:991px) and (min-width:768px) {
+@media (max-width:992px) and (min-width:768px) {
     div.one ,div.two{
         width: 44% ;
         margin-left: 4%;
@@ -71,7 +71,7 @@ div.innerdiv{
 
 }
 
-@media  (max-width:767px) {
+@media  (max-width:768px) {
     div.one ,div.two ,div.three{
         width: 90% ;
         margin-left: 5%;
