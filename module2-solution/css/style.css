@@ -95,3 +95,15 @@ div.innerdiv {
     margin-top: 3%;
   }
 }
+
+div.chicken{
+    background-color: rgba(245, 150, 26, 0.459);
+}
+
+div.Beef{
+    background-color: rgb(169, 15, 38);
+    color: white;
+}
+div.Sushi{
+    background-color: rgba(221, 137, 199, 0.309);
+}
