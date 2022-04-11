@@ -1,53 +1,74 @@
-
-body{
-    background-color: rgb(190, 201, 175);
-    color: black;
-    box-sizing: border-box;
-    
+body {
+  background-color: rgb(232, 235, 234);
+  color: black;
+  box-sizing:border-box;
+  font-family: "Oxygen", sans-serif;
 }
 
 #header-nav {
-    border-radius: 0;
-    border: 0;
+  border-radius: 0;
+  border: 0;
 }
 
+a.navbar-brand {
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgb(190, 201, 175);
+}
 
-
-.navbar-header button.navbar-toggle{
+.navbar-header button.navbar-toggle {
   border: 2px solid rgb(190, 201, 175);
 }
 
-#nav-list {
-    text-align: center;
+#nav-list li a {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: rgba(190, 201, 175, 0.339);
 }
 
-#main-content section{
-    background-color: rgba(252, 255, 254, 0.895);
-    padding: 24px;
-    margin: 20px 0px ;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.478);
-    
+#nav-list li a:hover {
+  transition: 0.4s;
+  color: white;
+  background-color: rgb(190, 201, 175);
 }
 
-#main-content section:hover{
-    background-color: rgb(252, 255, 254);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.478);
-    cursor: pointer;
+div.content{
+  background-color: rgba(175, 201, 201, 0.26);
+  margin: 10px;
+  padding: 10px 20px 20px ;
+  border-radius: 20px;
 }
 
-#main-content h1{
-    background-color: rgba(252, 255, 254, 0.895);
-    padding: 20px;
-    margin: 8px 0px ;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.478);
-    font-family: "Oxygen", sans-serif;
-    font-weight: 600;
+div.content:hover p {
+  transition: 0.5s;
+  background-color: rgb(152, 181, 181);
+}
+div.content:hover {
+  cursor: pointer;
 }
 
-#main-content h1:hover{
-    background-color: rgb(252, 255, 254);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.478);
-    cursor: pointer;
+div.content p{
+  background-color: rgb(175, 201, 201);
+  font-weight:600;
+  font-size: 1.2em;
+  margin-top: 0px;
+  padding: 2px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#main-content h1 {
+  background-color: rgb(190, 201, 175);
+  color: white;
+  padding: 10px;
+  margin: 0px 0px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+div.content a{
+  
+  font-weight: 600;
 }
