@@ -1,0 +1,53 @@
+
+body{
+    background-color: rgb(190, 201, 175);
+    color: black;
+    box-sizing: border-box;
+    
+}
+
+#header-nav {
+    border-radius: 0;
+    border: 0;
+}
+
+
+
+.navbar-header button.navbar-toggle{
+  border: 2px solid rgb(190, 201, 175);
+}
+
+#nav-list {
+    text-align: center;
+}
+
+#main-content section{
+    background-color: rgba(252, 255, 254, 0.895);
+    padding: 24px;
+    margin: 20px 0px ;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.478);
+    
+}
+
+#main-content section:hover{
+    background-color: rgb(252, 255, 254);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.478);
+    cursor: pointer;
+}
+
+#main-content h1{
+    background-color: rgba(252, 255, 254, 0.895);
+    padding: 20px;
+    margin: 8px 0px ;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.478);
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+}
+
+#main-content h1:hover{
+    background-color: rgb(252, 255, 254);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.478);
+    cursor: pointer;
+}
